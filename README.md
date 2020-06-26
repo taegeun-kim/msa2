@@ -24,7 +24,8 @@ https://hub.docker.com/repository/docker/tageunkim/nginx2
 ## simple usage  
 user@DESKTOP-S33351E MINGW64 /c/mas2 (master)  
 $ winpty docker run -it --name nginx2 -p 8888:80 -v c:\\mas2:/usr/share/nginx/html tageunkim/nginx2  
-# abover is for windows. if you use mas, do not use winpty command
+abover is for windows. if you use mas, do not use winpty command
   
 ##verify  
 check at your webrouser by putting in "http://localhost:8888"  
+or "curl http://localhost:8888"
